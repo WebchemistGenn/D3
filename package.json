@@ -1,19 +1,21 @@
 {
-  "name": "d3",
+  "name": "visualization",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/jest": "24.0.11",
-    "@types/node": "11.11.1",
-    "@types/react": "16.8.7",
-    "@types/react-dom": "16.8.2",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8",
-    "typescript": "3.3.3333"
+    "@types/jest": "^24.0.12",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "chart.js": "^2.8.0",
+    "highcharts": "^7.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.0.0",
+    "typescript": "^3.4.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -26,5 +28,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/chart.js": "^2.7.52",
+    "webpack-env": "^0.8.0"
+  }
 }
